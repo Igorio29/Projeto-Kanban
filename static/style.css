@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'sifonn';
+    src: url('./Font/sifonn-basic.otf') format('truetype'); /* ou .woff/.woff2 */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family:'sifonn';
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 2s;
+}
+
+a:hover {
+    color: black;
+}
+
+.nav {
+    margin: 0;
+}
+
+.nav div {
+    margin-left: 50px;
+}
